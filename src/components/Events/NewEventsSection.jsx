@@ -1,4 +1,3 @@
-// import { useEffect, useState } from 'react';
 import { useQuery } from "@tanstack/react-query";
 
 import LoadingIndicator from "../UI/LoadingIndicator.jsx";
@@ -11,38 +10,6 @@ export default function NewEventsSection() {
     queryKey: ["events"],
     queryFn: fetchEvents,
   });
-  // const [data, setData] = useState();
-  // const [error, setError] = useState();
-  // const [isLoading, setIsLoading] = useState(false);
-
-  // useEffect(() => {
-  // async function fetchEvents() {
-  //   setIsLoading(true);
-  //   const response = await fetch('http://localhost:3000/events');
-
-  //   if (!response.ok) {
-  //     const error = new Error('An error occurred while fetching the events');
-  //     error.code = response.status;
-  //     error.info = await response.json();
-  //     throw error;
-  //   }
-
-  //   const { events } = await response.json();
-
-  //   return events;
-  // }
-
-  //   fetchEvents()
-  //     .then((events) => {
-  //       setData(events);
-  //     })
-  //     .catch((error) => {
-  //       setError(error);
-  //     })
-  //     .finally(() => {
-  //       setIsLoading(false);
-  //     });
-  // }, []);
 
   let content;
 
