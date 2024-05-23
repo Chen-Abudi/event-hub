@@ -13,7 +13,7 @@ This is an events hub project based in React mainly focused on working with **Re
 ## 🧰 🛠️ Tech Stack & Techniques:
 
 - React
-- React Query
+- React Query (Tanstack Query)
 - JavaScript
 - CSS3
 - ViteJS
