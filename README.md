@@ -3,12 +3,13 @@
 ## 📣 Overview:
 
 - Intro
-- Tech Stack & Techniques
+- Tech Stack
+- Techniques
 - Additional Link
 
 ## 🔎 Intro:
 
-This is an events hub project based in React mainly focused on working with **React Query**.
+This is an events hub project based in React, mainly focused on working with **React Query**.
 
 ## 🧰 Tech Stack:
 
