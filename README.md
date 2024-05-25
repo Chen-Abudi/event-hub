@@ -24,10 +24,18 @@ This is an events hub project based in React, mainly focused on working with **R
 ## 🛠️ Techniques:
 
 - **`Tanstack/React Query`**:
+
   - **_useQuery_**: Is a hook that used to send an API request and handle the result of that request.
   - **_QueryClient_**: Is the core instance for managing caching, fetching, synchronizing, and updating server data. It configures global settings, handles queries/mutations, and manages their states and lifecycle events across the app.
   - **_QueryClientProvider_**: Is a component that provides a **QueryClient** to our React application. It enables React components to use hooks like **useQuery** and **useMutation** for data fetching, caching, synchronization, and state management. It must wrap your app to function.
   - **_useMutation_**: Is a powerful hook for managing data-altering operations like creating, updating, or deleting data. It simplifies handling asynchronous mutations, providing features like automatic retries, caching, and error handling to streamline API interactions in React application.
+
+- **`React Hooks`**:
+
+  - **_useParams_**: This hook gives an access to multiple contents in the same URL path, then it enables each parameter to have a unique identification.
+
+- **`React Router Dom Hooks`**:
+  - **_useNavigate_**: Is a hook that returns a function that lets you navigate programmatically.
 
 ---
 
