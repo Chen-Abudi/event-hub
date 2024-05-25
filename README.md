@@ -27,6 +27,7 @@ This is an events hub project based in React, mainly focused on working with **R
   - **_useQuery_**: Is a hook that used to send an API request and handle the result of that request.
   - **_QueryClient_**: Is the core instance for managing caching, fetching, synchronizing, and updating server data. It configures global settings, handles queries/mutations, and manages their states and lifecycle events across the app.
   - **_QueryClientProvider_**: Is a component that provides a **QueryClient** to our React application. It enables React components to use hooks like **useQuery** and **useMutation** for data fetching, caching, synchronization, and state management. It must wrap your app to function.
+  - **_useMutation_**: Is a powerful hook for managing data-altering operations like creating, updating, or deleting data. It simplifies handling asynchronous mutations, providing features like automatic retries, caching, and error handling to streamline API interactions in React application.
 
 ---
 
