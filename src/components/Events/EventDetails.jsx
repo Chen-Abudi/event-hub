@@ -124,12 +124,6 @@ export default function EventDetails() {
                 </button>
               </>
             )}
-            {/* <button onClick={handleStopDelete} className="button-text">
-              Cancel
-            </button>
-            <button onClick={handleDelete} className="button">
-              Delete
-            </button> */}
           </div>
           {isErrorDeleting && (
             <ErrorBlock
