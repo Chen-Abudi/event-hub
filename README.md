@@ -35,7 +35,12 @@ This is an events hub project based in React, mainly focused on working with **R
   - **_useParams_**: This hook gives an access to multiple contents in the same URL path, then it enables each parameter to have a unique identification.
 
 - **`React Router Dom Hooks`**:
+
   - **_useNavigate_**: Is a hook that returns a function that lets you navigate programmatically.
+
+- **`React Router Dom Components`**:
+
+  - **_Outlet_**: Is a component provided by React Router that serves as a placeholder for child routes within a parent route.
 
 ---
 
