@@ -15,6 +15,7 @@ This is an events hub project based in React, mainly focused on working with **R
 
 - React & React Query
 - **`Tanstack Query`** - A library that helps with sending HTTP requests & keeping the frontend in sync.
+- React Router Dom v6
 - JavaScript
 - CSS3
 - ViteJS
@@ -37,7 +38,7 @@ This is an events hub project based in React, mainly focused on working with **R
 - **`React Router Dom Hooks`**:
 
   - **_useNavigate_**: Is a hook that returns a function that lets you navigate programmatically.
-  - **_useSubmitted_**: Is a hook that enables form submission programmatically. It returns a function that mimics a form submission without needing a form element.
+  - **_useSubmit_**: Is a hook that enables form submission programmatically. It returns a function that mimics a form submission without needing a form element.
 
 - **`React Router Dom Components`**:
 
