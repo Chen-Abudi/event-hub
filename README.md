@@ -57,7 +57,7 @@ If you want to strengthen your knowledge and skills of **React, Redux, and more.
 
 ## Visit the Course [&#128073;&#127997; **HERE !**](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
 
-**_`Shoutout to Maximilian Schwarzmüller for this practice project, all the lectures, the exercises, and the React course in Udemy. Mahalo, Thank you!`_** 🌺
+**_`Shoutout to Maximilian Schwarzmüller for this practice project design, all the lectures, the exercises, and the React course in Udemy. Mahalo, Thank you!`_** 🌺
 
 ---
 
