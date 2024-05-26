@@ -26,28 +26,6 @@ export default function EditEvent() {
     staleTime: 10000,
   });
 
-  // const { mutate } = useMutation({
-  //   mutationFn: updateEvent,
-  //   onMutate: async (data) => {
-  //     const newEvent = data.event;
-
-  //     await queryClient.cancelQueries({ queryKey: ["events", params.id] });
-  //     const prevEvent = queryClient.getQueryData(["events", params.id]);
-
-  //     queryClient.setQueryData(["events", params.id], newEvent);
-
-  //     return { prevEvent };
-  //   },
-
-  //   onError: (error, data, context) => {
-  //     queryClient.setQueryData(["events", params.id], context.prevEvent);
-  //   },
-
-  //   onSettled: () => {
-  //     queryClient.invalidateQueries(["events", params.id]);
-  //   },
-  // });
-
   function handleSubmit(formData) {
     submit(formData, { method: "PUT" });
   }
