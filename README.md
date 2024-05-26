@@ -37,10 +37,16 @@ This is an events hub project based in React, mainly focused on working with **R
 - **`React Router Dom Hooks`**:
 
   - **_useNavigate_**: Is a hook that returns a function that lets you navigate programmatically.
+  - **_useSubmitted_**: Is a hook that enables form submission programmatically. It returns a function that mimics a form submission without needing a form element.
 
 - **`React Router Dom Components`**:
 
   - **_Outlet_**: Is a component provided by React Router that serves as a placeholder for child routes within a parent route.
+
+- **_loader_**: **loader** function can be define in each route to provide data to the route element before it renders.
+- **_redirect_**: When returning or throwing responses in loaders and actions, we can use **redirect** to redirect to another route.
+
+  **`Note`**: It's recommended to use **redirect** in loaders and actions rather than **useNavigate** in your components when the **redirect** is in response to data.
 
 ---
 
