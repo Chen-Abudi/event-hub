@@ -10,7 +10,6 @@ export default function NewEventsSection() {
     queryKey: ["events", { max: 3 }],
     queryFn: ({ signal, queryKey }) => fetchEvents({ signal, ...queryKey[1] }),
     staleTime: 5000,
-    // gcTime: 30000,
   });
 
   let content;

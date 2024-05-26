@@ -11,7 +11,6 @@ import { useQuery } from "@tanstack/react-query";
 import Modal from "../UI/Modal.jsx";
 import EventForm from "./EventForm.jsx";
 import { fetchEvent, queryClient, updateEvent } from "../../utils/http.js";
-// import LoadingIndicator from "../UI/LoadingIndicator.jsx";
 import ErrorBlock from "../UI/ErrorBlock.jsx";
 
 export default function EditEvent() {
@@ -51,8 +50,6 @@ export default function EditEvent() {
 
   function handleSubmit(formData) {
     submit(formData, { method: "PUT" });
-    // mutate({ id: params.id, event: formData });
-    // navigate("../");
   }
 
   function handleClose() {
@@ -60,14 +57,6 @@ export default function EditEvent() {
   }
 
   let content;
-
-  // if (isPending) {
-  //   content = (
-  //     <div className="center">
-  //       <LoadingIndicator />
-  //     </div>
-  //   );
-  // }
 
   if (isError) {
     content = (
@@ -103,12 +92,6 @@ export default function EditEvent() {
             </button>
           </>
         )}
-        {/* <Link to="../" className="button-text">
-          Cancel
-        </Link>
-        <button type="submit" className="button">
-          Update
-        </button> */}
       </EventForm>
     );
   }
